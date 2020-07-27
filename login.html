@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>login</title>
+    <link rel="stylesheet" href="styles/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/ecafe649ce.js"></script>
+  </head>
+
+  <body class="vh-100">
+<<<<<<< HEAD
+    <script
+      async
+      defer
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+=======
+>>>>>>> no2
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="images/mecodeGrayscaleLogo.svg"
+          width="150"
+          height="50"
+          class="d-inline-block mx-4"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#myNavbar"
+        aria-controls="#myNavbar"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ml-auto align-items-center">
+          <li class="nav-item">
+<<<<<<< HEAD
+            <a class="nav-link color-white" href="home.html">HOME</a>
+=======
+            <a class="nav-link color-white no-margin" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link color-white no-margin">NEWS</p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-white" href="account.html">SETTING</a>
+>>>>>>> no2
+          </li>
+          <li class="nav-item">
+            <div class="border-right mx-2 color-white"></div>
+          </li>
+          <li class="nav-item">
+            <p class="nav-link color-white no-margin">ENG</p>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="bg-dark" style="height:calc(100vh - 76px)">
+      <div class="container bg-dark pt-5 h-100">
+        <div class="row h-100">
+          <div
+            class="col-12 col-sm-6 d-flex flex-column justify-content-center"
+          >
+            <h1 class="color-white">Hello, Welcome to Mecode.</h1>
+          </div>
+          <div
+            class="col-12 col-sm-6 d-flex flex-column justify-content-center"
+          >
+            <form
+              class="py-4"
+              action="http://localhost:3000/mecode-callback"
+              method="POST"
+            >
+              <div class="form-group px-5 pb-1">
+                <label for="emailInput" class="color-white">Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailInput"
+                  placeholder="Please enter your email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group px-5">
+                <label for="emailPassword" class="color-white">Password:</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="emailPassword"
+                  aria-describedby="passwordHelp"
+                  placeholder="Password"
+                  name="password"
+                />
+                <small id="passwordHelp" class="form-text text-light"
+                  >Forgot your password?</small
+                >
+                <button
+                  type="submit"
+                  class="btn btn-outline-secondary d-flex ml-auto"
+<<<<<<< HEAD
+                >
+                  Login
+                </button>
+              </div>
+            </form>
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-5 offset-1">
+                <a
+                  href="https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1592821928&redirect_uri=http://localhost:3000/line-callback&scope=profile&state=testtest"
+                >
+                  <button class="line-btn color-white p-2">
+                    <i class="fab fa-line pr-2"></i>Log in with Line
+                  </button>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6">
+                <a
+                  href="https://www.facebook.com/v3.3/dialog/oauth?client_id=627611674314495&redirect_uri=http://localhost:3000/fb-callback&state=testest"
+                >
+                  <button type="button" class="fb-btn p-2 color-white">
+                    <i class="fab fa-facebook-square color-white pr-2"></i>Log
+                    in with Facebook
+                  </button>
+                </a>
+=======
+                >
+                  Login
+                </button>
+              </div>
+            </form>
+            <div class="row">
+              <div class= "container col-xs-12 px-5 d-flex flex-column flex-xl-row ">
+                <div id = "fb" class="p-3 d-flex justify-content-center" >
+                  <a style = "border:1px groove #3A5A97;background: #3A5A97;border-radius: 30px;color : #FFFFFF" class="py-2 px-4"
+                  href = "https://www.facebook.com/v3.3/dialog/oauth?client_id=1163476240480655&redirect_uri=http://localhost:3000/fb-callback&state=testtest"
+                  ><i class="fab fa-facebook-square d-inline-block" style="width: 15px" ></i>
+                  Login with Facebook
+                  </a>
+                </div>
+                <div id="line" class="p-3 d-flex justify-content-center" >
+                  <a style = "border:1px groove #00C300;background:#00C300 ;border-radius: 30px;color: #FFFFFF" class="py-2 px-4"
+                  href = "https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1594376791&redirect_uri=http://localhost:3000/line-callback&scope=profile&state=testtest"
+                  ><i class="fab fa-line d-inline-block" style="width: 15px"></i>
+                  Login with LINE
+                  </a>
+                </div> 
+>>>>>>> no2
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+<<<<<<< HEAD
+  <footer
+    class="container-fluid bg-dark text-white py-3 d-flex justify-content-center"
+  >
+=======
+  <footer class="container-fluid bg-dark text-white py-3 d-flex justify-content-center">
+>>>>>>> no2
+    <div class="my-auto">
+      <strong>© 2019 MeCode Limited. All Rights Reserved.</strong>
+    </div>
+    <div class="row ml-auto">
+<<<<<<< HEAD
+      <div class="nav-link">
+        <a href="https://fb.me/mecodeasia"
+          ><i class="fab fa-facebook-f" style="color:white;"></i
+        ></a>
+      </div>
+      <div class="nav-link">
+        <a href="https://twitter.com/mecodeasia"
+          ><i class="fab fa-twitter" style="color:white;"></i
+        ></a>
+      </div>
+      <div class="nav-link">
+        <a href="https://www.linkedin.com/company/mecode"
+          ><i class="fab fa-linkedin-in" style="color:white;"></i
+        ></a>
+      </div>
+    </div>
+  </footer>
+</html>
+=======
+        <div class="nav-link">
+          <a href="https://fb.me/mecodeasia"><i class="fab fa-facebook-f" style="color:white;"></i></a>
+        </div>
+        <div class="nav-link">
+          <a href="https://twitter.com/mecodeasia"><i class="fab fa-twitter" style="color:white;"></i></a>
+        </div>
+        <div class="nav-link">
+          <a href="https://www.linkedin.com/company/mecode"><i class="fab fa-linkedin-in" style="color:white;"></i></a>
+        </div>
+    </div>
+  </footer>
+>>>>>>> no2

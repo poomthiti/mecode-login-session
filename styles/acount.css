@@ -1,0 +1,27 @@
+.color-white {
+  color: #ffffff;
+}
+.no-margin {
+  margin: 0;
+}
+
+.border-right {
+  height: 45px;
+}
+
+.profile-img {
+  height: 100px;
+}
+
+.btn.btn-outline-white.submit-btn {
+  font-weight: bold;
+  color: white;
+  background-color:#343a40;
+  font-size: 17px;
+  padding : 10px 25px 10px 25px;
+  border-radius: 5px ;
+}
+.btn.btn-outline-white.submit-btn:hover{
+  color: #343a40;
+  background-color:#01e1ffcb;
+}
