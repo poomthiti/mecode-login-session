@@ -108,18 +108,8 @@ function firstNameUpdateFunc() {
   var firstNameForm = document.getElementById("firstNameForm");
   firstNameUpdate.classList.add("d-none");
   firstNameEdit.classList.remove("d-none");
-<<<<<<< HEAD
-  const firstNameValue = firstNameForm.value;
-  if (firstNameValue === "") {
-    alert("Firstname must be filled out.");
-  } else {
-    firstNameDisplay.innerHTML = firstNameValue;
-    sessionStorage.setItem("firstName", firstNameValue);
-  }
-=======
   var firstNameValue = firstNameForm.value;
   firstNameDisplay.innerHTML = firstNameValue;
->>>>>>> no2
 }
 
 const firstNameCancelFunc = () => {
@@ -143,18 +133,8 @@ function lastNameUpdateFunc() {
   var lastNameForm = document.getElementById("lastNameForm");
   lastNameEdit.classList.remove("d-none");
   lastNameUpdate.classList.add("d-none");
-<<<<<<< HEAD
-  const lastNameValue = lastNameForm.value;
-  if (lastNameValue === "") {
-    alert("Lastname must be filled out.");
-  } else {
-    lastNameDisplay.innerHTML = lastNameValue;
-    sessionStorage.setItem("lastName", lastNameDisplay.innerHTML);
-  }
-=======
   var lastNameValue = lastNameForm.value;
   lastNameDisplay.innerHTML = lastNameValue;
->>>>>>> no2
 }
 
 const lastNameCancelFunc = () => {
@@ -178,18 +158,8 @@ function addressUpdateFunc() {
   var addressForm = document.getElementById("addressForm");
   addressEdit.classList.remove("d-none");
   addressUpdate.classList.add("d-none");
-<<<<<<< HEAD
-  const addressValue = addressForm.value;
-  if (addressValue === "") {
-    alert("Address must be filled out.");
-  } else {
-    addressDisplay.innerHTML = addressValue;
-    sessionStorage.setItem("address", addressDisplay.innerHTML);
-  }
-=======
   var addressValue = addressForm.value;
   addressDisplay.innerHTML = addressValue;
->>>>>>> no2
 }
 
 const addressCancelFunc = () => {
@@ -213,18 +183,8 @@ function phoneNoUpdateFunc() {
   var phoneNoForm = document.getElementById("phoneNoForm");
   phoneNoEdit.classList.remove("d-none");
   phoneNoUpdate.classList.add("d-none");
-<<<<<<< HEAD
-  const phoneNoValue = phoneNoForm.value;
-  if (phoneNoValue === "") {
-    alert("Phone no. must be filled out.");
-  } else {
-    phoneNoDisplay.innerHTML = phoneNoValue;
-    sessionStorage.setItem("phoneNo", phoneNoDisplay.innerHTML);
-  }
-=======
   var phoneNoValue = phoneNoForm.value;
   phoneNoDisplay.innerHTML = phoneNoValue;
->>>>>>> no2
 }
 
 const phoneNoCancelFunc = () => {
@@ -260,12 +220,6 @@ const languageCancelFunc = () => {
   languageUpdate.classList.add("d-none");
 };
 
-<<<<<<< HEAD
-// const logoutFunc = () => {
-//   console.log("//////////..logout//////////");
-//   window.location.replace("/logout");
-// };
-=======
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, "\\$&");
@@ -306,4 +260,3 @@ function saveData () {
 
   location.href = "index.html"
 }
->>>>>>> no2

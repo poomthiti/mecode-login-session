@@ -32,26 +32,13 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../login.html"));
 });
 
-<<<<<<< HEAD
-app.get("/logout", (req, res) => {
-  res.redirect(`/login?sessionStorage=clear`);
-});
-
 app.post("/mecode-callback", async (req, res) => {
-  console.log("////////////EMAILLOGIN/////////");
-=======
-app.post("/mecode-callback", async (req, res) => {
->>>>>>> no2
   console.log(req.body);
   const { email, password } = req.body;
   if (email === "mecode@asia.com" && password === "mecode") {
     res.sendFile(path.join(__dirname, "../acount.html"));
   } else {
-<<<<<<< HEAD
-    console.log("email or password is invalid.");
-=======
     alert("email or password is invalid.");
->>>>>>> no2
   }
 });
 
